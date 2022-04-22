@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Patrick+Hand&display=swap");
+
+.brand-logo {
+  font-family: "Handlee", sans-serif;
+}
+
+#title {
+  font-family: "Patrick Hand", sans-serif;
+}
+
+#another-title {
+  font-family: "Handlee", sans-serif;
+  margin-left: 10px;
+}
+
+body {
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+p {
+  margin: 10px 0 !important;
+}
+
+.login-container {
+  width: 500px;
+  margin-top: 50px;
+  text-align: center;
+  /* background-color: #1565c0; */
+}
+
+.login-container .card .card-content {
+  /* background-color: #1565c0; */
+  color: #333;
+  border-radius: 5%;
+}
+
+.fa-small {
+  font-size: 16px !important;
+}
+
+.btn-float {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-small {
+  width: 180px;
+}
+
+.input-field #body {
+  height: 275px;
+  width: 100%;
+}
+
+/* our CSS */
+
+nav {
+  height: 75px;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+nav li {
+  margin-left: 40px;
+  font-size: x-large;
+}
+
+.card {
+  border-radius: 5%;
+}
+
+#read-more-btn {
+  border-radius: 5%;
+}
+
+#dashboard-table th,
+#dashboard-table tr td {
+  text-align: center;
+}
+
+#dashboard-table {
+  border-radius: 5%;
+}
+
+#subtitle {
+  text-align: center;
+  font-family: "Handlee", sans-serif;
+}
+
+#handlee {
+  font-family: "Handlee", sans-serif;
+  font-size: larger;
+}
+
+.center {
+  text-align: center;
+}
